@@ -11,7 +11,7 @@ Install :
     chmod +x 3proxyinstall.sh
     ./3proxyinstall.sh
 
-Change authentication!!! 
+Change authentication! (You can use nano instead of vim)
 
     vim /etc/3proxy/.proxyauth
 	
@@ -19,7 +19,7 @@ Sample .proxyauth
 
     johndoe:CL:johndoepassword123
 
-Change HTTP/SOCKS port, default is 9999 (HTTP) and 8088 (SOCKS)
+Change HTTP/SOCKS port, default is 9999 (HTTP) and 8088 (SOCKS) (You can use nano instead of vim)
 
     vim /etc/3proxy/3proxy.cfg
     
@@ -36,9 +36,6 @@ Uninstall:
 	chmod +x 3proxyuninstall.sh
 	./3proxyuninstall.sh
 
-**Script tested on 04.06.2017 on EC2 AMI :**
-
-- Ubuntu 16.04 64bit
 
 **Script will run on :**
 - Debian 6 32bits
